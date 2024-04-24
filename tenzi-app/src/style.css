@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(11, 36, 52, 1);
+}
+
+main{
+    height: 100vh;
+    margin: 8rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1{
+    padding-top: 3rem;
+    font-size: 6rem;
+    font-family: 'karla', sans-serif;
+    color: rgba(43, 40, 58, 1);
+}
+
+h3{
+    width: 430px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    font-family: 'inter', sans-serif;
+    color: rgba(74, 78, 116, 1);
+    font-size: 13px;
+}
+
+main div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 80%;
+
+}
+
+main div p{
+    margin-bottom: 2rem;
+    height: 55px;
+    width: 55px;
+    padding-top: 17px;
+    border: 1px solid lightgray;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px grey;
+    cursor: pointer;
+}
+
+main div p:hover{
+    background-color: hsl(0, 0%, 98%);
+}
+
+main div p:active{
+    background-color: hsl(0, 0%, 88%);
+
+}
+
+button{
+    width: 150px;
+    height: 56px;
+    cursor: pointer;
+    background-color: rgba(80, 53, 255, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-family: 'karla', sans-serif;
+}
+
+button:hover{
+    background-color: hsl(248, 100%, 71%);
+
+}
+
+button:active{
+    background-color: hsl(248, 100%, 61%);
+
+}
