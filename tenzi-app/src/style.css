@@ -33,7 +33,7 @@ h3{
     font-size: 13px;
 }
 
-main div{
+.dice-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-top: 3rem;
@@ -43,7 +43,7 @@ main div{
 
 }
 
-main div p{
+.dice-face{
     margin-bottom: 2rem;
     height: 55px;
     width: 55px;
@@ -87,5 +87,32 @@ button:hover{
 
 button:active{
     background-color: hsl(248, 100%, 61%);
+
+}
+
+@media (max-width: 600px) {
+    h3{
+        width: 330px;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+    main{
+        width: 400px;
+    }
+    main div p{
+        margin-left: auto;  
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 700px){
+    h3{
+        width: 330px;
+    }
+    h1{
+        font-size: 5rem;
+    }
 
 }
